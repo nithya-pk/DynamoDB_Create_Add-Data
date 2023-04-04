@@ -1,0 +1,36 @@
+{
+ "nk_dyndb_table": [
+  {
+   "PutRequest": {
+    "Item": {
+      "EmployeeID": { "S": "F123456"},
+      "Name": {"S" : "Some_Other_Name"},
+      "Department": {"S" : "Sales"},
+      "Location": {"S": "Frankfurt"}
+     }
+    }
+   },
+   {
+    "PutRequest": {
+     "Item": {
+      "EmployeeID": { "S": "M123456"},
+      "Name": {"S" : "Some_Name"},
+      "Department": {"S" : "Accounting"},
+      "Location": {"S": "Munich"}
+     }
+    }
+   },
+   {
+    "PutRequest": {
+     "Item": {
+      "EmployeeID": { "S": "S123456"},
+      "Name": {"S" : "Some_Name_Again"},
+      "Department": {"S" : "IT"},
+      "Location": {"S": "Stuttgart"}
+     }
+    }
+   }
+ ]
+}
+
+
